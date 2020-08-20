@@ -1,4 +1,4 @@
-FROM npmjs/npm-docker-baseline:12-alpine
+FROM vuejs/ci:latest
 RUN mkdir /web
 COPY . /web
 WORKDIR /web
